@@ -6,6 +6,14 @@ class Table{
         this.rows = arr; // Pegando as linhas.
     } 
 
+    get RowCount(){ // Campo Virtual
+        return this.rows.length; // Retornando quantidade de linhas da tabela.
+    }
+
+    get ColumCount(){ // Campo Virtual
+        return this.header.length; // Retornando quantidade de colunas da tabela.
+    }
+
 }
 
 module.exports = Table;
