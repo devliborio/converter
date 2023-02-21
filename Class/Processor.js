@@ -1,11 +1,11 @@
 class Processor {
 
     static Process(data) {
-        var r = data.split("\r\n"); // \n representa a quebra de linha
-        var rows = [];
+        let r = data.split("\r\n"); // \n representa a quebra de linha
+        let rows = [];
 
         r.forEach(row => {
-            var arr = row.split(',');
+            let arr = row.split(',');
             rows.push(arr);
         });
 
