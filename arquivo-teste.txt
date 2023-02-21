@@ -1,0 +1,6 @@
+Olá eu sou um arquivo de texto
+E eu funciono como um tipo de arquivo
+Legivel para humanos
+Muito obrigado!
+
+MAIS CONTEUDO!
