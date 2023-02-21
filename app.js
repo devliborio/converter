@@ -1,5 +1,5 @@
-var Reader = require("./Classes/Reader"); // Importando leitor para o arquivo principal.
-var Processor = require("./Classes/Processor"); // Importando Processador de dados.
+var Reader = require("./Class/Reader"); // Importando leitor para o arquivo principal.
+var Processor = require("./Class/Processor"); // Importando Processador de dados.
 
 
 var reader = new Reader();
