@@ -15,7 +15,7 @@ async function main() {
     let users = new Table(processedData);
     let html = await HtmlParser.Parse(users);
 
-    writer.Write("htmlConvertido.html", html); // Arquivo gerado pelo escritor, convertendo assim o users.csv para um arquivo HTML com a formatação tabulada.
+    writer.Write(Date.now() + ".html", html); // Arquivo gerado pelo escritor, convertendo assim o users.csv para um arquivo HTML com a formatação tabulada.
  
 }
 
