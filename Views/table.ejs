@@ -14,6 +14,16 @@
                 <th> <%= col %> </th>
             <% }) %>
         </thead>
+
+        <tbody>
+            <% rows.forEach(row => { %>
+                <tr>
+                    <% row.forEach(element => { %>
+                        <td> <%= element %> </td>
+                    <% }) %>
+                </tr>
+            <% }) %>
+        </tbody>
     </table>
 
 </body>
