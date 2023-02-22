@@ -10,6 +10,8 @@ async function main() {
     let data = await reader.Read('./users.csv');
     let processedData = Processor.Process(data);
     let users = new Table(processedData);
+    let html = await HtmlParser.Parse(users);
+ 
 }
 
 main();
